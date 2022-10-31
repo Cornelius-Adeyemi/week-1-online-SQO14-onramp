@@ -1,0 +1,148 @@
+*,
+*::after,
+*::before{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-container{
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+
+  padding: 50px 0;
+
+}
+
+.content-holder{
+  width:90%;
+  max-width: 1000px;
+  
+ 
+
+}
+
+.card-holder{
+    margin-top: 20px;
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:600px) {
+    .card-holder{
+        justify-content: center;
+    }
+
+}
+
+.card{
+
+    width: 300px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+    height: fit-content;
+}
+
+.card-header img{
+  border-radius: 50%;
+}
+
+.card-header section{
+    display: flex;
+    align-items: center;
+}
+
+.imageName div{
+    margin-left: 5px;
+}
+
+.card > p{
+    word-wrap: break-word;
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+.card-header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.footer{
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+}
+
+.fa-twitter{
+    color:blue;
+}
+
+.fa-heart{
+    color:red;
+}
+
+.name{font-weight: bold;}
+.username{
+    font-style: italic;
+    font-size: 12;
+}
+
+
+.second-section{
+
+    text-align: center;
+    
+    
+}
+
+.second-section h2{
+    margin: 10px 0;
+}
+.second-section > p{
+    margin-bottom: 20px;
+}
+
+
+
+.second-card{
+    width: 350px;
+    text-align: left;
+    background-color: rgb(235, 238, 238);
+    border: 2px solid pink;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+}
+
+.fa-circle-check{
+    color: rgb(18, 224, 18);
+    padding-right: 5px;
+}
+
+.second-card hr{
+    margin: 10px 0;
+}
+
+
+.second-card button{
+    width: 100%;
+    height:40px;
+    border: 0;
+    color: white;
+    background-color:rgb(83, 83, 238) ;
+    margin-bottom: 10px;
+}
+
+
+.list{
+    margin: 5px 0;
+    line-height: 1.5;
+}
